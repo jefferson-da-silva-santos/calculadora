@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link
+      rel="shortcut icon"
+      href="../icons/calculator.ico"
+      type="image/x-icon"
+    /> 
+    <link rel="stylesheet" href="../styles/styes-index.css">
+    <link rel="stylesheet" href="../styles/styles-responsive-index.css">
+    <title>Calculadora</title>
+  </head>
+
+  <body class="calculate-body-ligth">
+    <div id="div-central" class="calculate-form-ligth">
+      <button id="btnVoltar" class="calculate-button-voltar-ligth">
+        <img
+          id="imgVoltar"
+          class="img-voltar-ligth"
+          src="../icons/icon-voltar-menor.ico"
+        />
+      </button>
+
+      <h1 id="tituloCalc" class="calculate-h1-titulo-ligth">Calculadora</h1>
+
+      <input
+        id="ligthDark"
+        onclick="darkLigth()"
+        type="checkbox"
+        class="liga-desliga__checkbox"
+      />
+
+      <input id="tela1" class="calculate-tela-ligth" type="text" readonly />
+      <br />
+      <input id="tela2" class="calculate-tela2-ligth" type="text" readonly />
+
+      <button id="btnO1" class="calculate-botao-operador-ligth">C</button>
+      <button id="btnO2" class="calculate-botao-operador-ligth">+/-</button>
+      <button id="btnO3" class="calculate-botao-operador-ligth">%</button>
+      <button id="btnO4" class="calculate-botao-operador-ligth">DEL</button>
+      <br />
+
+      <button id="btn1" class="calculate-botao-ligth">7</button>
+      <button id="btn2" class="calculate-botao-ligth">8</button>
+      <button id="btn3" class="calculate-botao-ligth">9</button>
+      <button id="btnO5" class="calculate-botao-operador-ligth">/</button>
+      <br />
+
+      <button id="btn4" class="calculate-botao-ligth">4</button>
+      <button id="btn5" class="calculate-botao-ligth">5</button>
+      <button id="btn6" class="calculate-botao-ligth">6</button>
+      <button id="btnO6" class="calculate-botao-operador-ligth">X</button>
+      <br />
+
+      <button id="btn7" class="calculate-botao-ligth">1</button>
+      <button id="btn8" class="calculate-botao-ligth">2</button>
+      <button id="btn9" class="calculate-botao-ligth">3</button>
+      <button id="btnO7" class="calculate-botao-operador-ligth">-</button>
+      <br />
+
+      <button id="btn10" class="calculate-botao-ligth">0</button>
+      <button id="btnO8" class="calculate-botao-operador-ligth">,</button>
+      <button id="btnO9" class="calculate-botao-operador-ligth">=</button>
+      <button id="btnO10" class="calculate-botao-operador-ligth">+</button>
+    </div>
+    
+    <!--Código JavaScript de formatação de numero-->
+    <script src="../src/number-format-src/script-format-number.js"></script>
+    <!--Código JavaScript de tratamento dos buttons-->
+    <script src="../src/buttons-src/script-buttons-numbers.js"></script>
+    <script src="../src/buttons-src/script-buttons-operacoes.js"></script>
+    <!--Código JavaScript para alternar entre os temas ligth e dark-->
+    <script src="../src/change-theme-src/script-change-theme.js"></script>
+    <!--Código JavaScript para tratar os eventos-->
+    <script src="../src/events-src/script-events.js"></script>
+  </body>
+</html>
