@@ -86,6 +86,7 @@
   text-align: right;
   font-size: 20px;
   text-shadow: 0px 4px 4px rgba(52, 52, 52, 0.255);
+  outline: none;
 }
 
 .calculate-tela2-ligth {
@@ -101,6 +102,7 @@
   margin-bottom: 20px;
   font-size: 40px;
   text-shadow: 0px 4px 4px rgba(52, 52, 52, 0.255);
+  outline: none;
 }
 
 .calculate-botao-ligth {
@@ -198,6 +200,7 @@
   font-size: 20px;
   padding: 14px;
   text-shadow: 0px 2px 4px rgb(52, 52, 52);
+  outline: none;
 }
 
 .calculate-tela2-dark {
@@ -213,6 +216,7 @@
   font-size: 40px;
   padding: 14px;
   text-shadow: 0px 2px 4px rgb(52, 52, 52);
+  outline: none;
 }
 
 .calculate-botao-dark {
